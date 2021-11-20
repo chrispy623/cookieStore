@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <title>Cookie Store</title>
+  </head>
+  
+  <body id="contactPage-container">
+      
+      <header>
+          <nav>
+              <h1><a href="index.html">LOGO</a></h1>
+            <ul id="navbar">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+      </header>
+
+    <form id ="contact-container">
+      <h1>contact us</h1>
+    <p>We look forward to working with you, let us know if you have any questions!</p>
+      <input class="input-field" type="text" placeholder="Enter Your Name" required>
+      <input class="input-field" type="email" placeholder="Your Email" required>
+      <input class="input-field" type="tel" placeholder="Number"
+             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+             required>
+      <small>Format: 123-456-7890</small>
+      <textarea class="input-field-textarea" type="text" placeholder="Message"></textarea>
+      <button type="button" id="send-btn">Send Message</button>
+    </form>
+
+  <div id="map-container">
+    <p>123 Alphabet Dr Dallas, Tx 75224</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26835.14029272275!2d-96.81442027895496!3d32.7818496130093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e9921f122aee1%3A0x2a0c3e75dc490c94!2sDallas%20Downtown%20Historic%20District%2C%20Dallas%2C%20TX!5e0!3m2!1sen!2sus!4v1619310452230!5m2!1sen!2sus" width="600" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+
+  <footer id="footer">
+    <div id="store-info">
+      <p>store info</p>
+    </div>
+    <div id="hours">
+      <p>
+        <strong>Hours:</strong>
+        <br>
+        Monday 10a.m.-3p.m.
+        <br>
+        Tuesday 9a.m.-5p.m.
+        <br>
+        Wednesday-Saturday 9a.m.-8p.m.
+        <br>
+        Sunday Closed
+        <br>
+        <strong>Address:</strong>
+        Cookie Store
+        <br>
+        214.123.1234
+        <br>
+        123 Alphabet St.
+        <br>
+        Dallas, Tx 75224
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
