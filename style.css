@@ -914,11 +914,6 @@ nav a:hover {
     "contact map"
     "footer footer";
   height: auto;
-  border: 1px solid;
-}
-
-#contactPage-container nav {
-  border: 1px solid;
 }
 
 #contact-container {
