@@ -29,6 +29,10 @@ nav a {
   color: #ee6c4d;
   
 }
+a {
+  text-decoration: none;
+  list-style: none;
+}
 
 nav a:hover {
   color: #fb8b24;
